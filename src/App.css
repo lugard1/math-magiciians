@@ -2,9 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: inherit;
 }
 
@@ -46,7 +44,6 @@ button:active {
 .application {
   width: 100%;
   max-width: 60rem;
-  height: 320px;
 }
 
 .calculator {
@@ -98,7 +95,7 @@ button:active {
 }
 
 .calculator .function-keys .calculator-key {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .calculator .function-keys .key-multiply {
@@ -106,7 +103,7 @@ button:active {
 }
 
 .calculator .digit-keys .calculator-key {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .calculator .digit-keys .key-0 {
@@ -115,20 +112,20 @@ button:active {
 }
 
 .calculator .digit-keys .key-dot {
-  font-size: 2em;
+  font-size: 1em;
   align-items: center;
   justify-content: center;
 }
 
 .calculator .operator-keys .calculator-key {
-  color: #fff;
   border-right: 0;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .calculator .function-keys {
   display: flex;
   background: #e0e0e7;
+  font-size: 1em;
 }
 
 .calculator .operator-keys {
