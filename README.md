@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[math-magicians: setup]** This project is to set up the environment and tools needed to develop a React application.
+**[math-magicians: setup]** This is a project to develop calculator UI without the functionalities using React components.
 
 ## 🛠 Built With <a name="built-with">
 - HTML
@@ -227,7 +227,7 @@ FUTURE FEATURES
 
 > 
 
--  **I would create a calculator UI.**
+-  **I would implement the functionalities of the calculator app.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -280,7 +280,7 @@ I would like to thank everyone that made this work a success.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/math-magiciians/blob/setup/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/math-magiciians/blob/components/MIT.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
