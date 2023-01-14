@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 8px;
   font-family:
     system-ui,
     -apple-system,
@@ -45,15 +45,12 @@ button:active {
 
 .application {
   width: 100%;
-  max-width: 40rem;
-  /* height: 520px; */
-  /* position: relative; */
+  max-width: 60rem;
+  height: 320px;
 }
 
 .calculator {
-  /* width: 100%; */
-  /* max-width: 520px; */
-  /* height: 100%; */
+  width: 100%;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -61,25 +58,23 @@ button:active {
 }
 
 .calculator-display {
-  color: white;
+  color: #fff;
   background: #858694;
-  line-height: 100px;
+  line-height: 120px;
   font-size: 2em;
-  padding: 0 10px;
+  padding: 0 20px;
   text-align: right;
   flex: 1;
 }
 
-/* .auto-scaling-text {
+.auto-scaling-text {
   padding: 0 30px;
-  position: absolute;
   right: 0;
   transform-origin: right;
-} */
+}
 
 .calculator-keypad {
   width: 100%;
-  /* height: 400px; */
   display: flex;
 }
 
@@ -95,7 +90,7 @@ button:active {
 }
 
 .calculator-key {
-  width: 100px;
+  width: 80px;
   height: 80px;
   border-top: 1px solid #777;
   border-right: 1px solid #666;
@@ -111,7 +106,7 @@ button:active {
 }
 
 .calculator .digit-keys .calculator-key {
-  font-size: 2.25em;
+  font-size: 2em;
 }
 
 .calculator .digit-keys .key-0 {
@@ -128,12 +123,12 @@ button:active {
 .calculator .operator-keys .calculator-key {
   color: #fff;
   border-right: 0;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .calculator .function-keys {
   display: flex;
-  background: linear-gradient(to bottom, rgba(202, 202, 204, 1) 0%, rgba(196, 194, 204, 1) 100%);
+  background: #e0e0e7;
 }
 
 .calculator .operator-keys {
