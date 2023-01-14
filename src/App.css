@@ -56,7 +56,6 @@ button:active {
 
 .calculator-display {
   color: #fff;
-  /* background: #858694; */
   background: #aaa;
   line-height: 120px;
   font-size: 2em;
