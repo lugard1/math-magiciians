@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[math-magicians: setup]** This project is to set up the environment and tools needed to develop a React application.
+**[math-magicians: setup]** This is a project to develop calculator UI without the functionalities using React components.
 
 ## 🛠 Built With <a name="built-with">
 - HTML
@@ -227,7 +227,7 @@ FUTURE FEATURES
 
 > 
 
--  **I would create a calculator UI.**
+-  **I would implement the functionalities of the calculator app.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
