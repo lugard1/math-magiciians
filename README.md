@@ -256,7 +256,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank everyone that made this work a success.
+I would like to thank everyone that made this work a success especially Lucas David Erkana.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
