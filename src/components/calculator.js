@@ -11,77 +11,40 @@ const Calculator = () => {
     const answer = calculate(state, buttonName);
     setState(answer);
   };
-  render() {
-    const { total, operation, next } = this.state;
-    return (
-      <div className="calculator_flex">
-        <h2 className="request">Let&apos;s do some math!</h2>
-        <div className="calculator">
-          <div className="calculator-display">
-            {total}
-            {operation}
-            {next}
-          </div>
-          <div className="operations">
-            <button type="button" onClick={this.clickReceived}>
-              AC
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              +/-
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              %
-            </button>
-            <button type="button" onClick={this.clickReceived} className="operators">
-              &#247;
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              7
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              8
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              9
-            </button>
-            <button type="button" onClick={this.clickReceived} className="operators">
-              x
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              4
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              5
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              6
-            </button>
-            <button type="button" onClick={this.clickReceived} className="operators">
-              -
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              1
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              2
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              3
-            </button>
-            <button type="button" onClick={this.clickReceived} className="operators">
-              +
-            </button>
-            <button type="button" onClick={this.clickReceived} className="zero">
-              0
-            </button>
-            <button type="button" onClick={this.clickReceived}>
-              .
-            </button>
-            <button type="button" onClick={this.clickReceived} className="operators">
-              =
-            </button>
-          </div>
+
+  const { total, operation, next } = state;
+  return (
+    <div className="calculator_flex">
+      <h2 className="request">Let&aposs do some math!</h2>
+      <div className="calculator">
+        <div className="calculator-display">
+          {total}
+          {operation}
+          {next}
         </div>
+        <div className="operations">
+          <Btn click={clickReceived} className="default" text="AC" />
+          <Btn click={clickReceived} className="default" text="+/-" />
+          <Btn click={clickReceived} className="default" text="%" />
+          <Btn click={clickReceived} className="operators" text="&#247;" />
+          <Btn click={clickReceived} className="default" text="7" />
+          <Btn click={clickReceived} className="default" text="8" />
+          <Btn click={clickReceived} className="default" text="9" />
+          <Btn click={clickReceived} className="operators" text="x" />
+          <Btn click={clickReceived} className="default" text="4" />
+          <Btn click={clickReceived} className="default" text="5" />
+          <Btn click={clickReceived} className="default" text="6" />
+          <Btn click={clickReceived} className="operators" text="-" />
+          <Btn click={clickReceived} className="default" text="1" />
+          <Btn click={clickReceived} className="default" text="2" />
+          <Btn click={clickReceived} className="default" text="3" />
+          <Btn click={clickReceived} className="operators" text="+" />
+          <Btn click={clickReceived} className="zero" text="0" />
+          <Btn click={clickReceived} className="default" text="." />
+          <Btn click={clickReceived} className="operators" text="=" />
+        </div>
+      </div>
+    </div>
   );
 };
 
