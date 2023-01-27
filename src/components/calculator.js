@@ -1,18 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import Btn from './buttons';
 
-class Calculator extends React.PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = { total: 0, next: null, operation: null };
-  }
+const Calculator = () => {
+  const info = { total: 0, next: null, operation: null };
+  const [state, setState] = useState(info);
 
-  clickReceived = (event) => {
+  const clickReceived = (event) => {
     const buttonName = event.target.innerText;
-    const answer = calculate(this.state, buttonName);
-    this.setState(answer);
+    const answer = calculate(state, buttonName);
+    setState(answer);
   };
-
   render() {
     const { total, operation, next } = this.state;
     return (
@@ -84,9 +82,7 @@ class Calculator extends React.PureComponent {
             </button>
           </div>
         </div>
-      </div>
-    );
-  }
-}
+  );
+};
 
 export default Calculator;
