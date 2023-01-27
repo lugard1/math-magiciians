@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[math-magicians: setup]** This is a project to develop calculator UI without the functionalities using React components.
+**[math-magicians: full website]** This is an SPA project to develop a web app with three diferent pages: the Home page, Calculator Page, Quote page which are seamlessly accessed using the React Router DOM.
 
 ## 🛠 Built With <a name="built-with">
 - HTML
@@ -72,11 +72,12 @@ After you're finished please remove all the comments and instructions!
 - JavaScript
 - Webpack
 - React
+- React Router DOM
 </a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
 <details>
   <summary>Client</summary>
@@ -104,7 +105,7 @@ Features -->
 
 >
 
-- **[animated logo of the React app]**
+- **A Home page, Calculator page, and Quote page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,10 +122,9 @@ Features -->
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+You can clone or fork this project, to do that you need:
+- Git Bash
+- Vs code 
 
 ### Prerequisites
 
@@ -147,6 +147,7 @@ create a new empty repo
 run in your terminal : npx create-react-app 'app-name'
 cd app-name
 run the commands as seen in the new empty Github repo to link to the upstream.
+npm i react-router react-router-dom
 <!--
 Example commands:
 
@@ -160,6 +161,7 @@ Example commands:
 
 Install this project with:
 - Git Bash
+- Vs code 
 <!--
 Example command:
 
@@ -227,7 +229,7 @@ FUTURE FEATURES
 
 > 
 
--  **I would implement the functionalities of the calculator app.**
+-  **I would work on the style and feel of the web app.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -280,7 +282,7 @@ I would like to thank everyone that made this work a success, most especially Lu
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/math-magiciians/blob/hooks-refactor/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/math-magiciians/blob/full-website/MIT.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
