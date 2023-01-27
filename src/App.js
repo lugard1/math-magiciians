@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Route, Routes, Link } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Home from './components/pages/Home';
 import Quote from './components/pages/Quote';
@@ -8,31 +9,31 @@ import './App.css';
 class App extends React.PureComponent {
   render() {
     return (
-      <div className="application">
-        <header>
-          <nav>
-            <h1>Math Magicians</h1>
-            <ul>
+      <div>
+        <header className="header">
+          <nav className="navigation">
+            <h1 className="title">Math Magicians</h1>
+            <ul className="nav_list">
               <li>
-                <link to="/" className="home_link" />
-                Home
+                <Link to="/" className="link">Home</Link>
               </li>
               <li>
-                <link to="/Calculator" className="calculator_link" />
-                Calculator
+                <Link to="/Calculator" className="link">Calculator</Link>
               </li>
               <li>
-                <link to="/Quote" className="quote_link" />
-                Quote
+                <Link to="/Quote" className="link">Quote</Link>
               </li>
             </ul>
           </nav>
         </header>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Calculator" element={<Calculator />} />
-          <Route path="/Quote" element={<Quote />} />
-        </Routes>
+        <div className="application">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Calculator" element={<Calculator />} />
+            <Route path="/Quote" element={<Quote />} />
+          </Routes>
+        </div>
+        <footer className="footer">Math Magicians&copy; 2023, Lugard Agu</footer>
       </div>
     );
   }
