@@ -115,7 +115,7 @@ Features -->
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://math-magiciians.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,7 +258,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank everyone that made this work a success, most especially Lucas David Erkana.
+I would like to thank everyone that made this work a success.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -15,7 +15,7 @@ const Calculator = () => {
   const { total, operation, next } = state;
   return (
     <div className="calculator_flex">
-      <h2 className="request">Let&aposs do some math!</h2>
+      <h2 className="request">Let&apos;s do some math!</h2>
       <div className="calculator">
         <div className="calculator-display">
           {total}
